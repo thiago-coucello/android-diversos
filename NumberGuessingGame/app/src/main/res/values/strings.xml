@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">App do Thiago</string>
+    <string name="guessthenumber_button">Adivinhe o Número</string>
+    <string name="btn_start">NOVO JOGO</string>
+    <string name="btn_guessing">Adivinhar</string>
+    <string name="text_guessTheNumber">Escolha um numero (Entre 0 e 100)</string>
+    <string name="blank_space"> </string>
+    <string name="you_win">Parabéns! Você ganhou!</string>
+    <string name="too_high">Estou pensando em um número menor</string>
+    <string name="too_low">Estou pensando em um número maior</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="alert_title">Tem certeza?</string>
+    <string name="alert_description">Começar um novo jogo irá alterar o número que estou pensando agora</string>
+    <string name="gameState_newGame">Novo jogo criado</string>
+    <string name="attempts">Tentativas</string>
+    <string name="start_sound">Painel de Sons</string>
+    <string name="Pause">Pausar</string>
+    <string name="Stop">Parar</string>
+
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "264160719173",
+    "firebase_url": "https://quem-e-esse-pokemon.firebaseio.com",
+    "project_id": "quem-e-esse-pokemon",
+    "storage_bucket": "quem-e-esse-pokemon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264160719173:android:e24ab3aa59c45947a20e2c",
+        "android_client_info": {
+          "package_name": "com.example.quemessepokemon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "264160719173-l6kohlobi1a1a4ntgicgtugr97r8ab3r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDONgM-DKth9k6CmiOqo7OI41TWldjXqb0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "264160719173-l6kohlobi1a1a4ntgicgtugr97r8ab3r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

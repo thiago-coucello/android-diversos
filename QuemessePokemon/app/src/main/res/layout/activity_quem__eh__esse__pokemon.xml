@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@android:color/background_dark"
+        android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/carta_pokemon"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/pokemon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="Imagem do Pokemon"
+            app:srcCompat="@drawable/bulbasaur" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@android:color/background_dark"
+        android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="@drawable/moldura_nintendo_meio"
+        android:orientation="horizontal"></LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/moldura_nintendo_baixo"
+        app:layout_constraintEnd_toStartOf="@+id/btnNewGame"
+        app:layout_constraintStart_toStartOf="@+id/btnNewGame">
+
+        <Button
+            android:id="@+id/btnNewGame"
+            android:layout_width="49dp"
+            android:layout_height="30dp"
+            android:background="@drawable/btn_new"
+            android:text="@string/blank"
+            android:textSize="10sp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.74"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.819" />
+
+        <TextView
+            android:id="@+id/edtCronometro"
+            android:layout_width="55dp"
+            android:layout_height="18dp"
+            android:text="Acertos: 0"
+            android:textColor="@android:color/background_dark"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.289"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.791" />
+
+        <EditText
+            android:id="@+id/resposta"
+            android:layout_width="204dp"
+            android:layout_height="32dp"
+            android:background="@android:drawable/edit_text"
+            android:inputType="text"
+            android:text="@string/blank"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.076" />
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="40dp"
+            android:layout_height="29dp"
+            android:background="@drawable/btn_exit"
+            android:text="@string/blank"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.825" />
+
+        <Button
+            android:id="@+id/btnEnviarResposta"
+            android:layout_width="108dp"
+            android:layout_height="79dp"
+            android:background="@drawable/btn_guess"
+            android:onClick="adivinharPokemon"
+            android:text="@string/blank"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.326" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

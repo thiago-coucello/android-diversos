@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Quem é esse Pokemon</string>
+    <string name="alert_title">INSTRUÇÕES</string>
+    <string name="yes">Sim</string>
+    <string name="alert_description">O nome de todos os pokemons aqui descritos estão em inglês
+    como por exemplo "Bulbasaur", caso escreva "Bulbasauro" sua resposta estará errada. Para enviar
+    sua resposta, clique na pokebola. Depois de enviar, caso esteja certa, o pokemon mudará automaticamente.
+    Divirta-se.</string>
+    <string name = "entendido">Entendido</string>
+    <string name = "no">Não</string>
+    <string name = "NovoJogoDescription">Você deseja criar um novo jogo? O pokemon será alterado</string>
+    <string name = "NovoJogoTitle">Novo Jogo</string>
+    <string name = "blank"> </string>
+</resources>
